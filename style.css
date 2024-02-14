@@ -115,6 +115,7 @@ body {
         background-image: url("mobileatext.png");
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: bottom center;
     }
 
     .right-section .fixed-image2 {
