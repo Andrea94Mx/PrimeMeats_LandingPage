@@ -98,7 +98,7 @@ body {
 @media (max-width: 768px) {
 
     .separator {
-        background-color: darkgray;
+        background-color: rgb(34, 34, 37);
         flex: 0 0 5px;
     }
 
