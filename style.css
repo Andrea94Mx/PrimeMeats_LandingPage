@@ -109,14 +109,18 @@ body {
 
     .parallax {
         background-image: url("mobilebacka.png");
-
+        background-size: cover;
     }
     .left-section .fixed-image {
         background-image: url("mobileatext.png");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .right-section .fixed-image2 {
         background-image: url("mobilebtext.png");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
   }
 
