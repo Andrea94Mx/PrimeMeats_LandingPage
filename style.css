@@ -113,11 +113,6 @@ body {
         background-position: center center;
     }
 
-    .parallax2 {
-        background-size: cover;
-        background-position: center center;
-    }
-
 
     .left-section .fixed-image {
         background-image: url("mobileatext.png");
@@ -130,6 +125,7 @@ body {
         background-image: url("mobilebtext.png");
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: top center;
     }
   }
 
