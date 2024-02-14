@@ -110,7 +110,6 @@ body {
     .parallax {
         background-image: url("mobilebacka.png");
         background-size: cover;
-        background-position: center;
     }
 
 
