@@ -98,7 +98,8 @@ body {
 @media (max-width: 768px) {
 
     .separator {
-        background-color: whitesmoke;
+        background-color: darkgray;
+        flex: 0 0 5px;
     }
 
     .split-screen {
