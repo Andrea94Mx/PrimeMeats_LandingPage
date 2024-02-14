@@ -116,14 +116,14 @@ body {
 
     .left-section .fixed-image {
         background-image: url("mobileatext.png");
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom center;
     }
 
     .right-section .fixed-image2 {
         background-image: url("mobilebtext.png");
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: top center;
     }
