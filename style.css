@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.split-screen {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    background-image: url("sideaback.png");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-section:hover .parallax {
+    transform: scale(1.2);
+    z-index: 0;
+}
+
+.left-section .fixed-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("side_a_transparent.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.separator {
+    flex: 0 0 10px;
+    background-color: black;
+}
+
+.right-section {
+    flex: 1;
+    background-image: url("sidebback.png");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-section:hover .parallax2 {
+    transform: scale(1.2);
+    z-index: 0;
+}
+
+.right-section .fixed-image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("side_b_transparent.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.left-section:hover,
+.right-section:hover {
+    cursor: pointer;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s ease;
+    background-image: url("sideaback.png");
+    background-size: cover;
+    transform-origin: center center;
+}
+
+.parallax2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s ease;
+    background-image: url("sidebback.png");
+    background-size: cover;
+    transform-origin: center center;
+}
