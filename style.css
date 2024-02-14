@@ -97,6 +97,10 @@ body {
 
 @media (max-width: 768px) {
 
+    .separator {
+        background-color: whitesmoke;
+    }
+
     .split-screen {
         display: flex;
         flex-direction: column;
