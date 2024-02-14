@@ -111,6 +111,11 @@ body {
         background-image: url("mobilebacka.png");
         background-size: cover;
     }
+
+    .parallax2 {
+        background-size: cover;
+    }
+
     .left-section .fixed-image {
         background-image: url("mobileatext.png");
         background-size: contain;
