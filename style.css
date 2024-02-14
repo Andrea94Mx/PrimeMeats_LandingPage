@@ -113,13 +113,10 @@ body {
     }
     .left-section .fixed-image {
         background-image: url("mobileatext.png");
-        max-width: 100%;
-        height: auto;
     }
 
     .right-section .fixed-image2 {
         background-image: url("mobilebtext.png");
     }
-.
   }
 
