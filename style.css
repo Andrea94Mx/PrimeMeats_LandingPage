@@ -106,6 +106,9 @@ body {
         background-image: url("mobilebacka.png");
 
     }
+    .left-section .fixed-image {
+        background-image: url("mobileatext.png");
+    }
 
   }
 
