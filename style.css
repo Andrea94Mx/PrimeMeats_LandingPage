@@ -116,7 +116,7 @@ body {
 
     .left-section .fixed-image {
         background-image: url("mobileatext.png");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
     }
