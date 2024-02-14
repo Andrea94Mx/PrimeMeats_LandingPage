@@ -97,14 +97,15 @@ body {
 
 @media (max-width: 768px) {
 
-    .separator {
-        background-color: rgb(255, 0, 0);
-        flex:0 0 10px;
-    }
-
     .split-screen {
         display: flex;
         flex-direction: column;
     }
 
+    .parallax {
+        background-image: url("mobilebacka.png");
+
+    }
+
   }
+
