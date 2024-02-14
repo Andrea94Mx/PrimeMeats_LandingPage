@@ -93,3 +93,12 @@ body {
     background-size: cover;
     transform-origin: center center;
 }
+
+@media (max-width: 768px) {
+
+    .separator {
+        background-color: rgb(255, 0, 0);
+        flex:0 0 10px;
+    }
+
+  }
