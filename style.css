@@ -109,8 +109,6 @@ body {
 
     .parallax {
         background-image: url("mobilebacka.png");
-        max-width: 100%;
-        height: auto;
 
     }
     .left-section .fixed-image {
@@ -122,6 +120,6 @@ body {
     .right-section .fixed-image2 {
         background-image: url("mobilebtext.png");
     }
-
+.
   }
 
