@@ -110,5 +110,9 @@ body {
         background-image: url("mobileatext.png");
     }
 
+    .right-section .fixed-image2 {
+        background-image: url("mobilebtext.png");
+    }
+
   }
 
